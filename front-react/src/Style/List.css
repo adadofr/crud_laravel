@@ -1,0 +1,49 @@
+li {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    position: relative;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.actor {
+
+    width: 80%;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.actor:active {
+    background-color: #4D80E4;
+    color: #fff;
+}
+
+.description-container {
+    position: relative;
+    width: 60%;
+    height: 85%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-right: 5%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+}
+
+@media only screen and (max-width: 1025px) {
+    .description-container{
+        margin-right: 0;
+    }
+}
