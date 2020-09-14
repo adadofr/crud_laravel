@@ -1,5 +1,6 @@
 .admin {
     margin: 0 auto;
+    width: 100%;
 }
 
 th, td {
@@ -12,10 +13,34 @@ th {
 }
 
 .table {
-    margin: 0 auto;
     margin-top: 80px;
-    border: solid .1em #4B431C;
-    width: 80%;
+    max-width: 100%;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.user-data {
+    max-width: 100%;
+    position: absolute;
+}
+
+.td-id {
+    width:100px
+}
+
+.td-avatar {
+    width: 150px;
+}
+
+.td-lastname, .td-firstname {
+    width: 150px;
+}
+
+.td-decription, th, td {
+    max-width: 800px;
+    word-wrap: break-word;
 }
 
 .create {

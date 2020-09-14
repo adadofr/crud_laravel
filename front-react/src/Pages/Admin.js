@@ -82,6 +82,7 @@ function Admin() {
             </form>
             <div className="create" onClick={handleNewUser}>Create new profile</div>
             <table className="table">
+            <div className="user-data">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -89,19 +90,18 @@ function Admin() {
                         <th>Lastname</th>
                         <th>Firstname</th>
                         <th>Description</th>
-                        <th width="150px">Action</th>
+                        <th >Action</th>
                     </tr>
                 </thead>
                 <tbody>
-
                     {userData.map(user => {
                         return (
                             <tr key={user.lastname}>
-                                <td>{user.id}</td>
-                                <td><img src={user.avatar} alt="avatar" /></td>
-                                <td>{user.lastname}</td>
-                                <td>{user.firstname}</td>
-                                <td>{user.description}</td>
+                                <td className='td-id'>{user.id}</td>
+                                <td className='td-avatar'><img src={user.avatar} alt="avatar" /></td>
+                                <td className='td-lastname'>{user.lastname}</td>
+                                <td className='td-firstname'>{user.firstname}</td>
+                                <td className='td-description'>{user.description}</td>
                                 <td>
                                     <div className="action-delete">
                                         <img className='update-logo' src={Update} alt='delete logo' />
@@ -112,6 +112,7 @@ function Admin() {
                         )
                     })}
                 </tbody>
+                </div>
             </table>
         </div >
     )
