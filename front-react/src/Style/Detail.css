@@ -33,3 +33,10 @@
 .description p {
     word-wrap: break-word;
 }
+
+@media only screen and (max-width: 1025px) {
+    
+    .Detail {
+        height: 460px;
+    }
+}

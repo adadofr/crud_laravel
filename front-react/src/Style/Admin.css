@@ -15,7 +15,7 @@ th {
 .table {
     margin-top: 80px;
     max-width: 100%;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -23,7 +23,6 @@ th {
 
 .user-data {
     max-width: 100%;
-    position: absolute;
 }
 
 .td-id {
@@ -39,7 +38,7 @@ th {
 }
 
 .td-decription, th, td {
-    max-width: 800px;
+    max-width: 700px;
     word-wrap: break-word;
 }
 

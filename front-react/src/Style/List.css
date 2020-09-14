@@ -68,4 +68,8 @@ a {
         margin-bottom: 5%;
         width: 90%;
     }
+
+    .list {
+        height: 100px;
+    }
 }
