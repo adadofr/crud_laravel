@@ -27,6 +27,7 @@
     width: 80%;
     height: 400px;
     left: 15%;
+    overflow: auto;
 }
 
 .description p {

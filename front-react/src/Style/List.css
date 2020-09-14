@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+.h3-list {
+    position: absolute;
+    top: 5%;
+}
+
 .actor {
 
     width: 80%;
@@ -25,6 +30,20 @@ a {
     border-radius: 20px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
     cursor: pointer;
+}
+
+.list-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    position: absolute;
+    overflow: auto;
+    height: 80%;
+    top: 25%;
 }
 
 .actor:active {
@@ -44,6 +63,9 @@ a {
 
 @media only screen and (max-width: 1025px) {
     .description-container{
-        margin-right: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 90%;
     }
 }

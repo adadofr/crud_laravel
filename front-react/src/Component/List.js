@@ -25,7 +25,7 @@ function List() {
     <Router>
       <div className="container">
         <div className="list-container">
-          <h3>List of stars</h3>
+          <h3 className="h3-list">List of stars</h3>
           <div className="list">
             {profilUser.map(star => {
               return (
